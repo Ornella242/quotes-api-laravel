@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "65e85f9f959c0b087110331754d451cf",
+    "content-hash": "c464901828e60dd73003fe855b1ab95d",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -958,6 +958,63 @@
                 }
             ],
             "time": "2021-10-06T17:43:30+00:00"
+        },
+        {
+            "name": "laravel/breeze",
+            "version": "v1.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/breeze.git",
+                "reference": "9680289ab0a9dd7708622dd4626326b07aaeb524"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/breeze/zipball/9680289ab0a9dd7708622dd4626326b07aaeb524",
+                "reference": "9680289ab0a9dd7708622dd4626326b07aaeb524",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/filesystem": "^8.42|^9.0",
+                "illuminate/support": "^8.42|^9.0",
+                "illuminate/validation": "^8.42|^9.0",
+                "php": "^7.3|^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Laravel\\Breeze\\BreezeServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\Breeze\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "Minimal Laravel authentication scaffolding with Blade and Tailwind.",
+            "keywords": [
+                "auth",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/laravel/breeze/issues",
+                "source": "https://github.com/laravel/breeze"
+            },
+            "time": "2022-02-09T00:14:35+00:00"
         },
         {
             "name": "laravel/framework",
@@ -5515,6 +5572,50 @@
                 "source": "https://github.com/laravel/sail"
             },
             "time": "2022-02-08T14:14:12+00:00"
+        },
+        {
+            "name": "laraveldaily/larastarters",
+            "version": "1.3.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LaravelDaily/Larastarters.git",
+                "reference": "4fa0ce15bee18d8d6de2cfdc70d5d38d41697b68"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LaravelDaily/Larastarters/zipball/4fa0ce15bee18d8d6de2cfdc70d5d38d41697b68",
+                "reference": "4fa0ce15bee18d8d6de2cfdc70d5d38d41697b68",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "LaravelDaily\\Larastarters\\LarastartersServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "LaravelDaily\\Larastarters\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Povilas Korop",
+                    "email": "povilas@laraveldaily.com"
+                }
+            ],
+            "description": "Laravel Starter Kits with extra functions",
+            "support": {
+                "issues": "https://github.com/LaravelDaily/Larastarters/issues",
+                "source": "https://github.com/LaravelDaily/Larastarters/tree/1.3.3"
+            },
+            "time": "2022-01-18T05:43:33+00:00"
         },
         {
             "name": "mockery/mockery",
