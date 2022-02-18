@@ -10,7 +10,8 @@ class Quote extends Model
     use HasFactory;
     protected $fillable = [
         'author',
-        'content'
+        'content',
+        'category_id'
     ];
     public function category() 
     {
