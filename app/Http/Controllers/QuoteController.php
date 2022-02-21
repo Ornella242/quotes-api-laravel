@@ -16,6 +16,16 @@ class QuoteController extends Controller
     {
         return Quote::all();
     }
+    
+     /**
+     * Get Quotes by a specific category
+     * @param int id
+     * @return \Illuminate\Http\Response
+     */
+    public function quote_by_category(int $id) {
+        $quote = Quote::where('category_id', $id)->get();
+        return $quote;
+    }
 
     /**
      * Store a newly created resource in storage.
