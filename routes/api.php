@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('category/{id}/quotes', [QuoteController::class, 'quote_by_category']);
 Route::resource('quotes', QuoteController::class);
 Route::resource('category', CategoryController::class );
 
